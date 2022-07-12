@@ -21,6 +21,8 @@ for i in range(1,ns.steps):
     fig = plt.figure()
     fsplt = fig.add_subplot()
     #fsplt.set_xlim((-20, 20))
+
+
     #fsplt.set_ylim((-20, 20))
     xs, ys = ml.calcwalk(i, center=False)
     plt.fill(xs, ys, color='black')
